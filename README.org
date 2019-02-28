@@ -14,6 +14,17 @@ of systems!
 - Scoff at random people when they tell you they run Linux.
 - Hack the planet!
 
+** INSTALL
+
+#+BEGIN_SRC Shell
+echo "untrusted comment: signify public key" > /etc/signify/abieber-pkg.pub
+echo "RWRaFou/737fpovRq3OP3lZnz/97lbq2wYXFFk90nYUaW8xbc2HTd2xj" >> /etc/signify/abieber-pkg.pub
+export PKG_PATH=https://deftly.net/pub/OpenBSD/snapshots/packages/amd64/:YOURMIRRORHERE
+pkg_add 1337hax
+#+END_SRC
+
+- or -
+
 #+BEGIN_SRC Shell
 cd /usr/ports/meta
 git clone git@github.com:qbit/1337hax.git
