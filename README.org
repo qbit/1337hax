@@ -1,0 +1,9 @@
+* 1337hax
+
+#+BEGIN_SRC Shell
+cd /usr/ports/meta
+git clone git@github.com:qbit/1337hax.git
+cd 1337hax
+make install
+#+END_SRC
+
